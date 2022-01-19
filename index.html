@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1-CSS</title>
+    <link rel="stylesheet" href="./layout1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Mitr:wght@200;400&family=Montserrat+Alternates:wght@100;200;400&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./icon1.png" style="width: 100%">
+                </div>
+                <h1>Dropbox</h1>
+                <h2><a href="#">For Individuals</a></h2>
+                <h2><a href="#">For Teams</a></h2>
+            </div>
+            <div class="description">
+                Put your <br>creative energy to <br>work, with <br>Dropbox.
+                <div class="h1">
+                    Dropbox is a modern workspace designed<br>to reduce busywork-so you can focus on<br> the things that matter.
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="navbar">
+                <h2 class="h2"><a href="#" id="white">Sign In</a></h2>
+                <h2 class="h2"><a href="#" id="white">Download</a></h2>
+            </div>
+            <div class="signup">
+                <h1>Sign Up<br><font>or  <a href="#">sign in to your account</a></font></h1>
+                <input type="text" placeholder="First name" id="name">
+                <input type="text" placeholder="Last name" id="lname">
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Password" id="password">
+                <input type="checkbox" id="terms"><h2>I Agree to <a href="#" style="color: rgb(0, 102, 255);">Dropbox Terms</a></h2>
+                <button class="signup1" onclick="verify()">Sign Up</button>
+                <button class="google"><div class="logo"><img src="./icon1.png" style="width: 100%;"></div>Sign In with Google</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
